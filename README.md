@@ -174,28 +174,3 @@ You can easily modify the project for other stocks by:
 
 ### Development
 - **jupyter** (1.1.1) - Interactive development environment
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **OpenBB** for providing the stock data
-- **TensorFlow** and **scikit-learn** communities for excellent ML libraries
-- **GitHub** for hosting this open-source project
-
-## 📞 Contact
-
-- **GitHub**: [@Bhavya700](https://github.com/Bhavya700)
-- **Repository**: [Nvidia-Stock-Price-Forecast](https://github.com/Bhavya700/Nvidia-Stock-Price-Forecast)
-
----
-
-⭐ **Star this repository if you find it helpful!**
-
-⚠️ **Disclaimer**: This project is for educational and research purposes only. Stock price predictions are inherently uncertain and should not be used as the sole basis for investment decisions. Always consult with financial advisors and conduct thorough research before making investment choices.
