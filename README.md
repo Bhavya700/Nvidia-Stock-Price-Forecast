@@ -46,51 +46,6 @@ The LSTM model provides the following 10-day price predictions:
 | 9 | 174.27 |
 | 10 | 173.64 |
 
-## 📁 Repository Structure
-
-```
-├── Stock Prediction.ipynb          # Main Jupyter notebook with all models
-├── NVDA_stock_data.csv            # Historical NVIDIA stock data
-├── prediction_results.txt          # Detailed model results and forecasts
-├── requirements.txt                # Python dependencies
-├── stock_forecast_env/            # Virtual environment (if applicable)
-└── README.md                      # This file
-```
-
-## 🛠️ Installation & Setup
-
-### Prerequisites
-- Python 3.8 or higher
-- pip package manager
-
-### Quick Start
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Bhavya700/Nvidia-Stock-Price-Forecast.git
-   cd Nvidia-Stock-Price-Forecast
-   ```
-
-2. **Create a virtual environment (recommended)**
-   ```bash
-   python -m venv stock_forecast_env
-   source stock_forecast_env/bin/activate  # On macOS/Linux
-   # or
-   stock_forecast_env\Scripts\activate     # On Windows
-   ```
-
-3. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Launch Jupyter Notebook**
-   ```bash
-   jupyter notebook
-   ```
-
-5. **Open `Stock Prediction.ipynb`** and run all cells
-
 ## 📈 Dataset
 
 The project uses historical NVIDIA (NVDA) stock data including:
@@ -139,6 +94,51 @@ The LSTM model significantly outperforms all other models with an RMSE of **0.01
 - Traditional ML models (SVM, Random Forest) show moderate performance
 - Gradient boosting methods (XGBoost, LightGBM) perform well but not as good as LSTM
 - The forecast suggests a potential short-term decline in NVDA stock
+
+## 📁 Repository Structure
+
+```
+├── Stock Prediction.ipynb          # Main Jupyter notebook with all models
+├── NVDA_stock_data.csv            # Historical NVIDIA stock data
+├── prediction_results.txt          # Detailed model results and forecasts
+├── requirements.txt                # Python dependencies
+├── stock_forecast_env/            # Virtual environment (if applicable)
+└── README.md                      # This file
+```
+
+## 🛠️ Installation & Setup
+
+### Prerequisites
+- Python 3.8 or higher
+- pip package manager
+
+### Quick Start
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Bhavya700/Nvidia-Stock-Price-Forecast.git
+   cd Nvidia-Stock-Price-Forecast
+   ```
+
+2. **Create a virtual environment (recommended)**
+   ```bash
+   python -m venv stock_forecast_env
+   source stock_forecast_env/bin/activate  # On macOS/Linux
+   # or
+   stock_forecast_env\Scripts\activate     # On Windows
+   ```
+
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Launch Jupyter Notebook**
+   ```bash
+   jupyter notebook
+   ```
+
+5. **Open `Stock Prediction.ipynb`** and run all cells
 
 ## 🚀 Usage
 
